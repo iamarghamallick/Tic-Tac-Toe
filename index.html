@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Tic-Tac-Toe Game</h1>
+        <div class="player" id="player">
+            <input type="text" name="player1" id="player1" placeholder="Name of the Player 1 (for X)">
+            <input type="text" name="player2" id="player2" placeholder="Name of the Player 2 (for O)">
+            <button class="btn" id="start-game-btn">Start Game</button>
+            <!-- <p class="players-name"><span>Player1</span><span>v/s</span><span>Player2</span></p> -->
+        </div>
+        <div class="box" id="box">
+            <div class="row">
+                <div class="col" id="0" onclick="handleClick(this)"></div>
+                <div class="col" id="1" onclick="handleClick(this)"></div>
+                <div class="col" id="2" onclick="handleClick(this)"></div>
+            </div>
+            <div class="row">
+                <div class="col" id="3" onclick="handleClick(this)"></div>
+                <div class="col" id="4" onclick="handleClick(this)"></div>
+                <div class="col" id="5" onclick="handleClick(this)"></div>
+            </div>
+            <div class="row">
+                <div class="col" id="6" onclick="handleClick(this)"></div>
+                <div class="col" id="7" onclick="handleClick(this)"></div>
+                <div class="col" id="8" onclick="handleClick(this)"></div>
+            </div>
+        </div>
+        <div class="result" id="result"></div>
+        <div class="button">
+            <button class="btn" id="reset-btn">Reset</button>
+            <button class="btn" id="refresh-btn">Refresh</button>
+        </div>
+    </div>
+
+
+    <footer class="footer">
+        <p>2023 &copy Made with JavaScript by Argha Malllick</p>
+    </footer>
+    <script src="/script.js"></script>
+</body>
+
+</html>
