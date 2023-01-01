@@ -12,7 +12,7 @@
 body {
     height: 100vh;
     background-color: rgb(7, 0, 70);
-    background: linear-gradient(red, rgb(209, 209, 1), green, blue);
+    background: linear-gradient(to left, red, rgb(209, 209, 1), green, blue);
     color: white;
     overflow-x: hidden;
 }
